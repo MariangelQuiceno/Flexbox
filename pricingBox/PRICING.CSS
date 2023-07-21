@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #93d9e9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.cajas{
+    display: flex;
+    align-items: center;
+
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    padding-top: 20px;
+
+}
+
+li p{
+    border-style: solid ;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgba(233, 232, 232, 0.699);
+}
+h2{
+    background-color: salmon;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.day{
+    background-color: white;
+    height: 480px;
+    width: 250px;
+    margin: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.weekend1{
+    background-color: white;
+    height: 480px;
+    width: 250px;
+    margin: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.weekend2{
+    background-color: white;
+    height: 480px;
+    width: 250px;
+    margin: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+button{
+    border-style: none;
+    padding: 10px;
+    background-color: rgb(230, 229, 229);
+}
+
+.button1 {
+    margin-block: 221px;
+}
+
+.button2 {
+    margin-block: 184px;
+}
+
+.button3 {
+    margin-block: 145px;
+}
+
+
+button:hover {
+    background-color: salmon;
+
+}
+
